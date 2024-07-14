@@ -1,8 +1,9 @@
 package org.lenoria.lenoriacore.core.items;
 
 import org.bukkit.inventory.ItemStack;
+import org.lenoria.lenoriacore.core.util.data.PersistentlySaved;
 
-public class CustomItemStack<T extends AbstractCustomItem> {
+public class CustomItemStack<T extends AbstractCustomItem> implements PersistentlySaved {
 
     T customItem;
 
